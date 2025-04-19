@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-secondary-800;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .prose h2 {
+    @apply text-2xl font-semibold mt-8 mb-4 text-secondary-900;
+  }
+  
+  .prose h3 {
+    @apply text-xl font-semibold mt-6 mb-3 text-secondary-900;
+  }
+  
+  .prose p {
+    @apply mb-4 text-secondary-700 leading-relaxed;
+  }
+  
+  .prose ul {
+    @apply mb-4 pl-6 list-disc text-secondary-700;
+  }
+  
+  .prose li {
+    @apply mb-2;
+  }
+  
+  .prose strong {
+    @apply font-semibold text-secondary-900;
+  }
+}
