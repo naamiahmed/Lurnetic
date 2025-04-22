@@ -67,7 +67,7 @@ const Contact = () => {
                     <Mail size={20} className="mt-1" />
                     <div>
                       <p className="font-medium">Email Us</p>
-                      <p className="mt-1">info@lurnetic.com</p>
+                      <p className="mt-1">lurnetic@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -76,11 +76,11 @@ const Contact = () => {
                   <h4 className="text-lg font-medium mb-4">Follow Us</h4>
                   <div className="flex space-x-4">
                     <a
-                      href="https://twitter.com"
+                      href="https://youtube.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-white bg-opacity-20 p-2 rounded-full hover:bg-opacity-30 transition-colors"
-                      aria-label="Twitter"
+                      aria-label="YouTube"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a
-                      href="https://facebook.com"
+                      href="https://web.facebook.com/lurnetic/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-white bg-opacity-20 p-2 rounded-full hover:bg-opacity-30 transition-colors"
@@ -118,7 +118,7 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a
-                      href="https://linkedin.com"
+                      href="https://linkedin.com/company/lurnetic"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-white bg-opacity-20 p-2 rounded-full hover:bg-opacity-30 transition-colors"
